@@ -1,0 +1,79 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    
+    }
+
+    .sizediv{
+      float: left;
+    }
+    .button{
+    width: 100%;
+    height: 50px;
+    }
+    .models{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    }
+    
+    .img-bck{
+      background-color: #f5f3f4;
+    }
+    
+    .hh{
+      position: relative;
+    }
+    .height{
+      height: 150px;
+    }
+    .hh:hover{
+      transition: 300ms;
+      transform: scale(0.95);
+    }
+    .free{
+      border: 1px solid rgb(10, 9, 9);
+      background-color: black;
+      color: aliceblue;
+      width: 110px;
+      position: absolute;
+      top: -6px;
+      right:0px;
+      font-size: 12px;
+      border-top-right-radius: 3px;
+    }
+    .product_found{
+      text-align: left;
+      font-size: 24px;
+    
+    }
+    .installments{
+      font-size: 12px;
+      color: grey;
+    }
+    
+    p {
+      margin-top: 6px;
+      margin-bottom: 0rem;
+    }
+    
+    .line_after::before{
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 2px;
+      background-color: rgb(238, 223, 16);
+      margin:-15px auto ;
+    
+    
+    }
+    .line_after{
+      margin-top: 1rem;
+    }
+    .size{
+      text-size-adjust:initial;
+      color: red;
+    }
